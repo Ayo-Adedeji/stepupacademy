@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.glow-purple {
+  text-shadow: 0 0 12px #9f7aea, 0 0 24px #9f7aea66;
+}
