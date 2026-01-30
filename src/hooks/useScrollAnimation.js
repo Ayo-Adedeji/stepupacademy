@@ -9,10 +9,10 @@ export const useScrollAnimation = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(ref.current); // trigger once
+          observer.unobserve(ref.current);
         }
       },
-      { threshold: 0.2 } // trigger when 20% visible
+      { threshold: 0.2 } 
     );
 
     if (ref.current) observer.observe(ref.current);
@@ -24,3 +24,4 @@ export const useScrollAnimation = () => {
 
   return [ref, isVisible];
 };
+

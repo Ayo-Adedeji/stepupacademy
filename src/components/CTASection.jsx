@@ -14,7 +14,7 @@ const CTASection = () => {
 
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:justify-between gap-10 relative z-10">
         
-        {/* Left Side: Text + Button */}
+        
         <div className="flex-1 text-center md:text-left space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-black drop-shadow-md">
             Ready to scale up and position yourself for opportunities?
@@ -31,7 +31,7 @@ const CTASection = () => {
           </a>
         </div>
 
-        {/* Right Side: Illustration */}
+      
         <div className="flex-1 hidden md:flex justify-center">
           <img
             src={ctaIllustration}
